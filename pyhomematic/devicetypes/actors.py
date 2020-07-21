@@ -92,7 +92,7 @@ class IPKeyBlind(IPBlind, HelperActionPress):
 
     @property
     def ELEMENT(self):
-        return [4]
+        return [3, 4]
 
 
 class IPKeyBlindMulti(KeyBlind):
